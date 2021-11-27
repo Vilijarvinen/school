@@ -1,0 +1,42 @@
+#fprow {
+    background-color: white;
+    color:black;
+    margin:15px;
+    padding: 15px 15px 15px 15px;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    padding:10 10 10 10;
+    width:100%;
+    height:50px;
+    background-color:#303233;
+    text-align: center;
+    color:white;
+    padding-top:5px;
+}
+
+#headerimg  {
+    width:100%;
+    height:150px;
+    object-fit:cover;
+}
+
+#picturerows   {
+    text-align: center;
+}
+
+#aboutrow {
+    background-color: white;
+    color:black;
+    margin:15px;
+    padding: 15px 15px 15px 15px;
+    text-align: justify;
+}
+

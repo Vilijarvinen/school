@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Content</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <link rel="preload" href="scripts.js" as="script">
+</head>
+    
+<body>
+    <div class=header>
+        <h1>Placeholder for a cover image</h1>
+    </div>
+    <nav class="nav" id="navbar">
+        <div class="dropdown">
+            <button onclick="myDropdown()" class="menu">MENU</button>
+            <div id="dropdown" class="dropdowncontent">
+                <a href="index.html">HOME</a>
+                <a href="second.html">CONTENT</a>
+                <a href="third.html">THIRD</a>
+                <a href="layout.html">LAYOUT</a>
+            </div>
+        </div>
+    </nav>
+    <div class="content">
+        <h1>Content?</h1>
+        <p>Why don't you believe me when I tell you there is nothing here?</p>
+        <img src="questionmark.png" alt="Questionmark">
+        <figure>
+            <img src="questionmark2.png" alt="Another questionmark" width="140" height="140">
+            <figcaption>A questionmark</figcaption>
+        </figure>
+        <label for="confusement">Confusement level:</label>
+        <progress id="confusement" max="100" value="80">80%</progress>
+    </div>
+    <footer>
+        Website owned by Vili Järvinen<br>
+        <a href="mailto:vili.o.jarvinen@student.laurea.fi">vili.o.jarvinen@student.laurea.fi</a>
+    </footer>
+    <script>
+        window.onscroll = function() {
+        myScrolldown()
+        };
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        function myScrolldown() {
+            if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+            }
+            else {
+            navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>

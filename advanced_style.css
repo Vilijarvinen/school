@@ -1,0 +1,39 @@
+body {
+    background-color: tomato;
+    background-size: cover;
+}
+
+@media (max-width:800px) {
+    body {
+        background-color: black !important;
+        color:white  !important;
+    }
+}
+
+.cont {
+    margin:0 auto;
+    text-align: center;
+    border:solid 2px;
+    width: 50vh;
+    height: 50vh;
+    text-shadow: 1px 1px yellow;
+    box-shadow:1px 1px yellow;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    padding: 5 5 5 5;
+    width:150px;
+    height:60px;
+    display:block;
+    background-color: salmon;
+    color:black;
+}
+
+a:hover {
+    display:block;
+    background-color: sienna;
+    color:red;
+    transition: 1s;
+}
